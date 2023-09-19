@@ -1,0 +1,19 @@
+/* Estilos para o tema claro (padrão) */
+.content {
+    background-color: white;
+    color: black;
+}
+
+.button  {
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    
+   
+padding: 10px; /* Espaçamento opcional */ }
+
+
+/* Estilos para o tema escuro */
+.dark-theme .content {
+    background-color: black;
+    color: white;
+}

@@ -1,19 +1,26 @@
-/* Estilos para o tema claro (padrão) */
-.content {
-    background-color: white;
-    color: black;
-}
+/* dark-mode.css */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  #dark-mode {
+    font-size: medium;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 20px; /* Adicione margem para dar espaço entre o botão e a borda */
+    z-index: 9999; /* Certifique-se de que o botão está na parte superior */
+  }
 
-.button  {
-    display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo à direita */
-    
-   
-padding: 10px; /* Espaçamento opcional */ }
-
-
-/* Estilos para o tema escuro */
-.dark-theme .content {
-    background-color: black;
-    color: white;
-}
+  /*
+  Estilizando o botão
+  */
+   #dark-mode {
+    color:white;
+    background-color: #0f0e0e;
+    width: 100px; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+   border-radius: 15%;
+  /* Outras propriedades de estilo para o botão */
+   }
+  
